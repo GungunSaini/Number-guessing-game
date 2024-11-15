@@ -73,12 +73,6 @@ input{
     margin: 2rem;
 }
 
-/* .mid{
-    margin-left: 3rem;
-     position: relative;
-     top: 250px
-} */
-
 .count{
    font-size: 2rem;
    padding-bottom: 2rem;
@@ -90,4 +84,42 @@ input{
     align-items: center;
     position: relative;
     top: 110px;
+}
+
+@media(max-width: 375px), (max-width: 500px){
+    p{
+        font-size: 1rem;
+    }
+    .button2{
+        width: 90px;
+        font-size: 1.1rem;
+        height: 2.6rem;
+    }
+    .button{
+        width: 90px;
+        font-size: 1.1rem;
+        height: 2.6rem;
+    }
+    input{
+        font-size: 1rem;
+        height: 1.5rem;
+        width: 140px;
+        margin-left: 0.8rem;
+    }
+    h1{
+        margin-left: 2rem;
+        font-size: 2.5rem;
+    }
+    .count{
+        font-size: 1rem;
+        padding-bottom: 3rem;
+        margin-left: 1.8rem;
+    }    
+    #score{
+        font-size: 1.5rem;
+
+    }
+    .mid{
+        padding-bottom: 2.5rem;
+    }
 }
