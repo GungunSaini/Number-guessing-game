@@ -86,7 +86,7 @@ input{
     top: 110px;
 }
 
-@media(max-width: 375px), (max-width: 500px){
+@media(max-width: 280px), (max-width: 580px){
     p{
         font-size: 1rem;
     }
